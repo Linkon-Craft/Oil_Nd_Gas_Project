@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("models\oil_nd_gas.pkl")
+model = joblib.load("models/oil_nd_gas.pkl")
 
 
 st.title("Test Oil and Gas CSV Dataset")
